@@ -23,7 +23,7 @@ log.info(testStepName)
 
 //to store the response as Xml String
 xmlHold = messageExchange.responseContentAsXml.toString()
-log.info(xmlHold)</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="country" value="united" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>country</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:afterLoadScript>def su = new File("C:/Users/Shimul/Desktop/SOAPUI Projects/Setup and TearDown/Setup.txt").text
+log.info(xmlHold)</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="country" value="united" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>country</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="4705b8b2-0364-4e5d-b99d-18084f2db15a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 2" searchProperties="true"><con:settings/><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:afterLoadScript>def su = new File("C:/Users/Shimul/Desktop/SOAPUI Projects/Setup and TearDown/Setup.txt").text
 def td = new File("C:/Users/Shimul/Desktop/SOAPUI Projects/Setup and TearDown/TearDown.txt").text
 
 project.getTestSuiteList().each{ testSuite ->
